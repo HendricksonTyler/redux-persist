@@ -1,3 +1,9 @@
+declare var React;
+/* tslint:disable */
+declare module 'react' {
+  export interface ReactNode {}
+  export interface PureComponent {}
+}
 
 declare module "redux-persist" {
     export * from "redux-persist/es/constants";
